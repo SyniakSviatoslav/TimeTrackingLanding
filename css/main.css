@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root {
+  --main-color: rgba(113, 168, 158, 1);
+  --background-color: rgba(249, 249, 249, 1);
+}
+
+/* use variable this way color: var(--main-color)  */
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--background-color);
+}
+.main{
+background-color: var(--background-color);
+max-height: 100vh;
+height: 100vh;
+width: 100vw;
+padding: 46px 120px;
+box-sizing: border-box;
+}
+.logo{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.content{
+display: flex;
+align-items: center;
+height: 90%;
+}
+.description{
+  width: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+ font-weight: normal;
+ font-size: 60px;
+  color:22322F;
+}
+h2{
+  font-weight: lighter;
+  color: 22322F;
+}
+.dude{
+  width: 50%;
+  padding: 0px 32px;
+}
+.button{
+position: absolute;
+margin-top: 10px;
+width: 222px;
+height: 67px;
+left: 120px;
+top: 590px;
+right: 1098px;
+bottom: 367px;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+background-color: rgba(113, 168, 158, 1); 
+border-radius: 10px; 
+color: white; 
+text-align: center;
+border: 3px solid black;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.NavigationItem {
+  margin-left: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bolder;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.NavigationItem2 {
+  margin-left: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(113, 168, 158, 1);
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bolder;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
